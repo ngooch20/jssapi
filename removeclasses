@@ -1,0 +1,1 @@
+for n in {1..100}; do curl -kvu username:password https://myjssaddress.jss:8443/JSSResource/classes/id/$n -X DELETE; done;
